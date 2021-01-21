@@ -6,6 +6,8 @@ public class TestGit {
 		// TODO Auto-generated method stub
 		System.out.println("Test for git");
 		String user = "John Yoo";
+		
+		System.out.println("would this be in my github?");
 	}
 
 }
