@@ -8,6 +8,8 @@ public class TestGit {
 		String user = "John Yoo";
 		
 		System.out.println("would this be in my github?");
+		
+		System.out.println("would this be pulled");
 	}
 
 }
