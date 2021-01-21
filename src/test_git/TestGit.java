@@ -10,6 +10,9 @@ public class TestGit {
 		System.out.println("would this be in my github?");
 		
 		System.out.println("would this be pulled");
+		
+		
+		System.out.println("From pulled to pusher");
 	}
 
 }
