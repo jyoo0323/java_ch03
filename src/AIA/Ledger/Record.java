@@ -29,6 +29,7 @@ public class Record {
                 System.out.println("Was it falsely reported to be revenue/cost?");
                 String ntype = sc.nextLine();
                 allRecords.get(num-1).set(0,ntype);
+                break;
             case "1":
                 System.out.println("Enter the new date: ");
                 String ndate = sc.nextLine();
