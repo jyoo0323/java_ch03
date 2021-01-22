@@ -30,14 +30,23 @@
 
 
 
-  ### 3000원 발견!!
+
+
+  ## 3000원 지출내역 검색
   ![image](https://user-images.githubusercontent.com/68590241/105505166-f9afbf00-5d0b-11eb-82f1-af4ee23079a2.png)  
-  
+
+
+
+
   
     
   ## U: 커피를 아아 2잔에서 베트남 연유커피 1잔으로 변경(Edit)
     
   ![image](https://user-images.githubusercontent.com/68590241/105505758-b0ac3a80-5d0c-11eb-9802-54275111f6b2.png)  
+  
+  
+  
+  
   
   
   
