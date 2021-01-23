@@ -1,2 +1,4 @@
-R;01/11;200000;용돈;
-C;01/11;3000;커피 2잔;Credit;영수증 있음;
+R;01/11;200000;Father Mother loan;
+C;01/11;3000;2 I.A from Locolab;Credit;No;
+C;01/11;7500;Oroji Ramen. Yum!;Credit;No;
+C;01/11;150000;뉴발란스 신발;Credit;Yes;

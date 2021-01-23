@@ -56,13 +56,26 @@ public class Record {
     public void printAllRecords() {
         int total = 0;
         System.out.println("\n/////////////////////////////////////////////////////////////\n");
-        System.out.printf("\t\t\tYour Invoices:\n");
-        System.out.println("\t\t종류\t날짜\t가격\t설명\t지불방식\t영수증여부(지출일시)");
+        System.out.printf("\t\t\tYour Invoices:\n\n");
+        System.out.printf("\t\t%-8s%-12s%-12s%-25s%-25s%-20s\n", "Type", "Date","Price","Description","Payment Type","Receipt");
         for(int i = 0; i<allRecords.size();i++){
             System.out.print("\nInvoice "+ (i+1)+"\t");
-            for(int j = 0; j < allRecords.get(i).size(); j++) {
-            	System.out.print(allRecords.get(i).get(j)+"\t");
-            }
+            if(allRecords.get(i).get(0).equals("C")) {
+	            System.out.printf("%-8s%-12s%-12s%-25s%-25s%-20s",
+	            		allRecords.get(i).get(0),
+	            		allRecords.get(i).get(1),
+	            		allRecords.get(i).get(2),
+	            		allRecords.get(i).get(3),
+	            		allRecords.get(i).get(4),
+	            		allRecords.get(i).get(5));	
+	        }else {
+	        	System.out.printf("%-8s%-12s%-12s%-20s",
+	            		allRecords.get(i).get(0),
+	            		allRecords.get(i).get(1),
+	            		allRecords.get(i).get(2),
+	            		allRecords.get(i).get(3));
+	        }
+            
             if(allRecords.get(i).get(0).equals("R")){
                 total += Integer.parseInt(allRecords.get(i).get(2));
             }
@@ -71,7 +84,7 @@ public class Record {
             }
             System.out.println();
         }
-        System.out.println("\n      Total balance: "+total);
+        System.out.println("\n\t\t\tTotal balance: "+total);
         System.out.println("\n/////////////////////////////////////////////////////////////\n");
     }
 
