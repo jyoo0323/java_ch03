@@ -9,10 +9,14 @@
   
   
   # Improvements:  
+  
+  
   ## 출력시 항목이 불명확 했던 점 개선. 각 항목의 의미 출력.  
   ![image](https://user-images.githubusercontent.com/68590241/105565982-eed94680-5d6c-11eb-9a07-3a72e6603e26.png)  
   
   
+  
+  <br/>  
   
   
   # 실행예시:
@@ -21,30 +25,46 @@
   
   ![image](https://user-images.githubusercontent.com/68590241/105503511-059a8180-5d0a-11eb-9ebf-ef5711b52d8e.png)
   
+    
+  <br/>  
+  
+  
   ## 처음 시작시 콘솔창:  
   >> 
   
   ![image](https://user-images.githubusercontent.com/68590241/105504579-46df6100-5d0b-11eb-9016-82964f3873c7.png)  
   
   
+    
+  <br/>  
+  
+  
   # CRUD:
   
   ## C:새로운 수입과 지출을 추가:   
   ![image](https://user-images.githubusercontent.com/68590241/105504775-84dc8500-5d0b-11eb-8321-fec9b34d5760.png)  
+  
+    
+  <br/>  
+  
 
   ## R: 모든 수입/지출을 출력(PrintAll) & 3000원을 썼던적을 검색후 발견(Search):
   :  
   ![image](https://user-images.githubusercontent.com/68590241/105504930-ad647f00-5d0b-11eb-9055-399c217aed3a.png)  
 
 
-
+  
+  <br/>  
+  
 
 
   ## 3000원 지출내역 검색
   ![image](https://user-images.githubusercontent.com/68590241/105505166-f9afbf00-5d0b-11eb-82f1-af4ee23079a2.png)  
 
 
-
+  
+  <br/>  
+  
 
   
     
@@ -54,6 +74,8 @@
   
   
   
+    
+  <br/>  
   
   
   
@@ -62,12 +84,23 @@
    
   ![image](https://user-images.githubusercontent.com/68590241/105505913-d76a7100-5d0c-11eb-80d1-7ac5344f0936.png)  
   
+    
+  <br/>  
   
   
     
   # 프로그램을 종료하고 난 이후의 Records.txt:  
   ![image](https://user-images.githubusercontent.com/68590241/105506247-3203cd00-5d0d-11eb-9705-b840f18e7d01.png)  
+    
+  <br/>  
+  
+  
   ![image](https://user-images.githubusercontent.com/68590241/105506385-58296d00-5d0d-11eb-9ad1-229adbcc9bed.png)  
+  
+    
+  <br/>  
+  
+  
   # 이후 프로그램을 재시작하고 출력시:  
   ![image](https://user-images.githubusercontent.com/68590241/105506517-7db67680-5d0d-11eb-954d-5532db45553b.png)  
   
