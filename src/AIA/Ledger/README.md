@@ -7,6 +7,14 @@
   2. 그 ArrayList에 추가, 삭제, 변경, 검색, 출력을 골라서 선택하면 콘솔에서 상황을 보여준다.
   3. 종료시 Records.txt 파일에 변경된 내용들을 다시 저장해준다.
   
+  
+  # Improvements:  
+  ## 출력시 항목이 불명확 했던 점 개선. 각 항목의 의미 출력.  
+  ![image](https://user-images.githubusercontent.com/68590241/105565982-eed94680-5d6c-11eb-9a07-3a72e6603e26.png)  
+  
+  
+  
+  
   # 실행예시:
   ## 처음 시작시 비어있는 Records.txt:  
   >>  
