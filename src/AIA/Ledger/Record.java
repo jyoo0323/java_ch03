@@ -57,14 +57,19 @@ public class Record {
         int total = 0;
         System.out.println("\n/////////////////////////////////////////////////////////////\n");
         System.out.printf("\t\t\tYour Invoices:\n");
+        System.out.println("\t\t종류\t날짜\t가격\t설명\t지불방식\t영수증여부(지출일시)");
         for(int i = 0; i<allRecords.size();i++){
-            System.out.println("\nInvoice "+ (i+1)+" "+ allRecords.get(i));
+            System.out.print("\nInvoice "+ (i+1)+"\t");
+            for(int j = 0; j < allRecords.get(i).size(); j++) {
+            	System.out.print(allRecords.get(i).get(j)+"\t");
+            }
             if(allRecords.get(i).get(0).equals("R")){
                 total += Integer.parseInt(allRecords.get(i).get(2));
             }
             else{
                 total -= Integer.parseInt(allRecords.get(i).get(2));
             }
+            System.out.println();
         }
         System.out.println("\n      Total balance: "+total);
         System.out.println("\n/////////////////////////////////////////////////////////////\n");

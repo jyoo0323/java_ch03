@@ -78,6 +78,16 @@ public class LedgerDispConsole {
             if(input.equals("2")){
                 invoice.add("Credit");
             }
+            
+            System.out.println("Did you get receipt 1.Yes or 2.No?");
+            String receipt = sc.nextLine();
+            if (receipt.equals("1")){
+                invoice.add("영수증 있음");
+            }
+            if(receipt.equals("2")){
+                invoice.add("영수증 없음");
+            }
+            
         }
         record.addRecord(invoice);
 	}
