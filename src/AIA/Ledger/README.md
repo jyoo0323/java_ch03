@@ -22,7 +22,10 @@
   
   ![image](https://user-images.githubusercontent.com/68590241/105571292-476f0a80-5d92-11eb-8e8d-453bfae5b6b3.png)  
   
+   <br/>  
+  
   ### 위의 줄맞춤이 맞지 않는 이유는 동아시아권 언어들의 폭은 영문문자의 폭 보다 두배 넓다. 그렇기에 스페이스를 채워줘도 제대로 들어맞지 않는것
+      https://daewonyoon.tistory.com/322  
   
   
   <br/>  
