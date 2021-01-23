@@ -15,6 +15,13 @@
   ![image](https://user-images.githubusercontent.com/68590241/105565982-eed94680-5d6c-11eb-9a07-3a72e6603e26.png)  
   
   
+  <br/>  
+  
+  ## 출력을 printf를 이용한 formatting으로 변경:
+  ### 좀 더 깔끔한 느낌을 준다. 그러나 위의 개선점에서 연결되는 문제인 한글 입력시 줄맞춤은 여전히 안된다  
+  
+  ![image](https://user-images.githubusercontent.com/68590241/105571292-476f0a80-5d92-11eb-8e8d-453bfae5b6b3.png)  
+  
   
   <br/>  
   
