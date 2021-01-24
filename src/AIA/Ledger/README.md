@@ -26,6 +26,7 @@
   참조:  
   https://stackoverflow.com/questions/4480334/how-to-call-a-method-stored-in-a-hashmap-java  
   https://stackoverflow.com/questions/36902224/how-can-i-assign-a-class-method-to-a-value-within-a-hashmap  
+  https://stackoverflow.com/questions/7026507/why-are-static-variables-considered-evil%22  (static 변수/함수의 관하여)  
   
   
   
