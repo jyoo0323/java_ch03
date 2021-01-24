@@ -10,6 +10,21 @@
   
   # Improvements:  
   
+  <br/>  
+  
+  ## switch를 이용한 선택지 고르기를 HashMap으로 변경함.
+  LedgerDispConsole 클래스의 work() 메소드에 있던 선택지를 고르는 부분을 switch-case를 이용한 방법에서 HashMap에 함수를 불러오는 value를 넣어 함수를
+  직접 불러오는 방식으로 구현했다. 몇가지 다른 방식도 있었지만 지금의 나에게 가장 직관적 이였던 reflect 라이브러리의 Method.getMetho로 클래스 내에 있는
+  함수를 가져오는 방식을 선택했다.  
+  
+  의문점이 있는다면 이게 과연 더 좋은 방식일까? 이다. 가독성적인 면에선 읽는 사람의 입장에선 내가 어떻게 이걸 구현했는지 이해하는 레벨이라면 조금 더
+  직관적이고 짧게 끝나기에 편할수 있다. 그러나 OOP를 공부하는 중에 static 변수와 함수만을 사용해야 가능한 방식은 메모리 효율적으로 좋은 방식이 아닌 것
+  같다는 생각이 든다.  
+  참조:  
+  https://stackoverflow.com/questions/4480334/how-to-call-a-method-stored-in-a-hashmap-java  
+  https://stackoverflow.com/questions/36902224/how-can-i-assign-a-class-method-to-a-value-within-a-hashmap  
+  
+  
   
   ## 출력시 항목이 불명확 했던 점 개선. 각 항목의 의미 출력.  
   ![image](https://user-images.githubusercontent.com/68590241/105565982-eed94680-5d6c-11eb-9a07-3a72e6603e26.png)  
