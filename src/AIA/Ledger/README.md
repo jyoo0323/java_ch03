@@ -19,7 +19,10 @@
   
   의문점은 이게 과연 더 좋은 방식일까? 이다. 가독성적인 면에선 읽는 사람의 입장에선 내가 어떻게 이걸 구현했는지 이해하는 레벨이라면 조금 더
   직관적이고 짧게 끝나기에 편할수 있다. 그러나 OOP를 공부하는 중에 static 변수와 함수만을 사용해야 가능한 방식은 메모리 효율적으로 좋은 방식이 아닌 것
-  같다는 생각이 든다.  
+  같다는 생각이 든다. 또한 이는 비슷한 일을 수행할수 있게 해주는 Runnable도 마찬가지 인듯하다. 인터페이스를 이용해 만드는 방법은 static 함수/변수로 부터
+  자유로운것 같으나(참조2) 인터페이스를 구현해 줘야하는 점과 함수를 꼭 맵에 넣을때 만들어줘야 하는 점 등 불편한 점이 많아 보인다.  
+  
+  
   참조:  
   https://stackoverflow.com/questions/4480334/how-to-call-a-method-stored-in-a-hashmap-java  
   https://stackoverflow.com/questions/36902224/how-can-i-assign-a-class-method-to-a-value-within-a-hashmap  
