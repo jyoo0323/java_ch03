@@ -1,4 +1,6 @@
 R;01/11;200000;Father Mother loan;
-C;01/11;3000;2 I.A from Locolab;Credit;No;
-C;01/11;7500;Oroji Ramen. Yum!;Credit;No;
-C;01/11;150000;뉴발란스 신발;Credit;Yes;
+C;01/11;3000;2 I.A from Locolab;Credit;Do not Have;
+C;01/11;7500;Oroji Ramen. Yum!;Credit;Do not Have;
+C;01/11;3000;Snacks from CU;Credit;Do not Have;
+C;01/11;10000;왜 한글만 안맞춰지냐;Credit;Do not Have;
+C;01/24;2000;Monster from CU;Credit;Do not Have;
